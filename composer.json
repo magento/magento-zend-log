@@ -7,15 +7,9 @@
     ],
     "homepage": "http://framework.zend.com/",
     "license": "BSD-3-Clause",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:magento-gl/magento-zend-exception.git"
-        }
-    ],
     "require": {
         "php": ">=7.0.0",
-        "magento/zend-exception": "dev-php84_deprication_fix"
+        "magento/zend-exception": "^1.16"
     },
     "replace": {
         "zf1/zend-log": "^1.12",
